@@ -22,7 +22,7 @@ function calculateOvertimePay (rate, hours) {
 }
 
 //4. Tax deduction (calculateTaxes), tax rate 15%
-function calculateTaxes (grosspay) {
+function calculateTaxes (grossPay) {
     return grossPay * 0.85;
 }
 
